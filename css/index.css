@@ -1,0 +1,387 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑" !important;}
+html{font-size: 20px;}
+li{ list-style:none; }
+a{ text-decoration:none; }
+img{ vertical-align:top; }
+input{outline: none}
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+header{
+	width: 18.0rem;
+	height: 1.25rem;
+	overflow: hidden;
+	background: #1b1b1b;
+}
+header img{
+	float: left;
+	margin-top: 0.1rem;
+	margin-left: 0.25rem;
+	width: 1.975rem;
+}
+header h1{
+	color: #fff;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.25rem;
+	font-size: 0.45rem;
+	font-weight: bold;
+}
+header p{
+	font-size: 0.45rem;
+	height: 100%;
+	padding-left: 0.875rem;
+	color: #fff;
+	font-weight: bold;
+	float: right;
+	margin-right: 0.2rem;
+	line-height: 1.25rem;
+	background: url(../images/phone.png) no-repeat 0 center;
+	background-size: 0.55rem 0.65rem;
+	padding-top: 0.125rem
+}
+.banner{
+    position: relative;
+    height: 14.175rem;
+    background: url("../images/ban.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.banner b{
+    text-indent: -249.975rem;
+    width: 8.35rem;
+    height: 2.25rem;
+    position: absolute;
+    left: 4.625rem;
+    top:1.25rem;
+    background: url("../images/ban1.png") no-repeat center;
+    background-size: 8.35rem
+}
+.banner h1{
+    text-indent: -249.975rem;
+    width: 15.15rem;
+    height: 5.575rem;
+    position: absolute;
+    left: 1.375rem;
+    top:5.5rem;
+    background: url("../images/ban2.png") no-repeat center;
+    background-size: 15.15rem
+}
+.banner p{
+    text-indent: -249.975rem;
+    width: 9.75rem;
+    height: 1.275rem;
+    position: absolute;
+    left: 4.125rem;
+    top:9.75rem;
+    background: url("../images/ban3.png") no-repeat center;
+    background-size: 9.75rem
+}
+.zg-benefit{
+    height: 9.325rem;
+    background: url("../images/m1.jpg") no-repeat center;
+    background-size: 18.0rem
+}
+.zg-benefit h2{
+    text-indent: -249.975rem;
+    height: 2.4rem;
+    background: url("../images/m2.png") no-repeat center;
+    background-size: 13.875rem
+}
+.zg-benefit-cont{
+    margin-top:1.0rem;
+    overflow: hidden;
+}
+.zg-benefit-cont a{
+    width: 8.975rem;
+    height: 5.1rem;
+}
+.zg-benefit-cont a:nth-child(1){
+    float: left;
+    background: url("../images/m3.png") no-repeat center;
+    background-size: 8.975rem
+}
+.zg-benefit-cont a:nth-child(2){
+    float: right;
+    background: url("../images/m4.png") no-repeat center;
+    background-size: 8.975rem;
+}
+.nav{
+    width: 18.0rem;
+    height: 4.9rem;
+    background: url("../images/m5.jpg") no-repeat center;
+    background-size: 18.0rem;
+    overflow: hidden;
+}
+.fixed{
+    position: fixed;
+    top:0;
+    z-index:5;
+}
+.nav a{
+    float: left;
+    margin-left:0.1rem;
+    margin-top:0.4rem;
+    width: 4.325rem;
+    height: 3.775rem;
+}
+.nav a img{
+    display: block;
+    width: 4.325rem;
+}
+.nav a:first-child{
+    margin-left:0.225rem;
+}
+.relief{
+    display: none;
+    height: 4.9rem;
+    text-indent: -249.975rem;
+}
+.zg-main{
+    overflow: hidden;
+    background: #f42954;
+}
+.zg-main h2{
+    height: 2.0rem;
+    background-position: center;
+    background-size: 17.1rem;
+    background-repeat: no-repeat;
+    margin-top:1.5rem;
+    text-indent: -249.975rem;
+}
+.warn{
+    font-size:0.5rem;
+    text-align: center;
+    color: #ffffff;
+    line-height:0.55rem;
+    margin-top:0.55rem;
+    background-image: url("../images/m17.png");
+    background-repeat: no-repeat;
+    background-position: 1.45rem center;
+    background-size: 0.6rem;
+}
+.warn span{
+    color: #fdff37;
+}
+.btn-box{
+    margin-left: 0.475rem;
+    margin-top: 1.0rem;
+    overflow: hidden;
+}
+.btn-box li{
+    float: left;
+    margin-left:0.325rem;
+    width: 3.85rem;
+    height: 1.8rem;
+    line-height:1.425rem;
+    text-align: center;
+    font-size:0.65rem;
+    font-weight:bold;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 3.85rem;
+    background-image: url("../images/m11.png");
+    background-size: 3.85rem
+}
+.btn-box li.on1{
+    background-image: url("../images/m12.png");
+    color: #ffffff;
+    background-size: 3.85rem
+}
+.show-box{
+    width: 17.3rem;
+    border:0.1rem solid #ff208d;
+    margin: 0.55rem auto 0;
+    background: #f5f5f8;
+    display: none;
+}
+.show-box ul{
+    margin-left:0.3rem;
+    margin-top:0.5rem;
+    overflow: hidden;
+    padding-bottom:1.0rem;
+}
+.show-box ul li{
+    float: left;
+    margin-left:0.4rem;
+    margin-top:0.5rem;
+    width: 7.75rem;
+    height: 5.75rem;
+    overflow: hidden;
+    -webkit-box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #ccc;
+    -moz-box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #ccc;
+    box-shadow: 0.1rem 0.1rem 0.25rem 0.1rem #ccc;
+}
+.show-box ul li a{
+    display: block;
+}
+.courses-1{
+    width: 7.75rem;
+    height: 3.925rem;
+    background: url("../images/m13.jpg") no-repeat center;
+    background-size: 7.75rem;
+    overflow: hidden;
+    text-align: center;
+}
+.courses-1 p{
+    font-size: 0.6rem;
+    line-height:0.6rem;
+    color: #ffffff;
+    margin-top:1.1rem;
+}
+.courses-1 b{
+    display: block;
+    font-size:0.8rem;
+    line-height:0.8rem;
+    color: #fdff37;
+    margin-top:0.35rem;
+}
+.courses-price{
+    height: 1.825rem;
+    overflow: hidden;
+    background: #ffffff;
+}
+.courses-price p:first-child{
+    width: 3.45rem;
+    text-align: center;
+    line-height:1.85rem;
+    float: left;
+    text-decoration: line-through;
+    font-size:0.45rem;
+    color: #999999;
+}
+.courses-price p:last-child{
+    width: 3.9rem;
+    height: 1.2rem;
+    float: left;
+    margin-top:0.25rem;
+    font-size:0.45rem;
+    color: #333333;
+    line-height:1.1rem;
+    border:1px solid #f42954;
+    border-radius: 0.15rem;
+    text-align: center;
+}
+.courses-price p:last-child b{
+    font-size:0.75rem;
+    color: #f42954;
+}
+.courses-2{
+    width: 7.75rem;
+    height: 3.925rem;
+    background: url("../images/m13.jpg") no-repeat center;
+    background-size: 7.75rem;
+    overflow: hidden;
+    text-align: center;
+}
+.courses-2 b{
+    display: block;
+    font-size:0.8rem;
+    line-height:3.925rem;
+    color: #fdff37;
+}
+.show-box ul .courses-cc1{
+    margin: 0.5rem auto 0;
+    float: none;
+}
+.btn-box li.on2{
+    background-image: url("../images/m15.png");
+    background-size: 3.85rem;
+    color: #ffffff;
+}
+.warn2{
+    background-position: 2.25rem center;
+}
+.show-box2 .courses-1{
+    background: url("../images/m16.jpg") no-repeat center;
+    background-size: 7.75rem
+}
+.courses-cc2 .courses-1 p{
+    margin-top:0.35rem;
+}
+.warn3{
+    background-position: 2.85rem center;
+}
+.btn-box3{
+    margin-left: 3.5rem;
+}
+.btn-box3 li{
+    width: 5.1rem;
+    margin-left:0.45rem;
+   background-image: url("../images/m19.png");
+    background-size: 5.1rem;
+}
+.btn-box3 li.on3{
+    background-image: url("../images/m20.png");
+    color: #ffffff;
+}
+.show-box3 .courses-1{
+    background: url("../images/m21.jpg") no-repeat center;
+}
+.show-box3-2 .courses-1 p{
+    margin-top:16px;
+}
+.warn4{
+    background-position: 3.75rem center;
+}
+.m4-cont{
+    width: 17.5rem;
+    height: 7.95rem;
+    background: url("../images/m25.jpg") no-repeat center;
+    margin: 0.9rem auto 2.9rem;
+    overflow: hidden;
+}
+.m4-cont a{
+    float: left;
+    margin-left:0.4rem;
+    margin-top:1.1rem;
+    width: 7.75rem;
+    height: 5.75rem;
+    text-indent: -249.975rem;
+}
+.m4-cont a:first-child{
+    background: url("../images/m23.png") no-repeat center;
+    background-size: 7.75rem;
+    margin-left:0.8rem;
+}
+.m4-cont a:last-child{
+    background: url("../images/m24.png") no-repeat center;
+    background-size: 7.75rem;
+}
+
+.fix{
+    width: 18.0rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 1.7rem;
+    z-index: 9999
+
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 0.6rem;
+    color: #fff;
+    padding-left: 0.5rem;
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+    background-size: 1.15rem 1.125rem
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 25% center #e62929;
+    background-size: 1.525rem 1.2rem
+}
+.zixun{
+    position: fixed;
+    right:0;
+    top:50%;
+}
+.zixun a{
+    display: block;
+}
+.zixun a img{
+    width: 2.6rem;
+}
